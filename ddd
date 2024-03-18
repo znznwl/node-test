@@ -12,7 +12,7 @@ import pyautogui
 driver = webdriver.Chrome()
 
 #엑셀 불러오기
-fpath = r'C:\Users\ony19070912\Desktop\Native app TC,TD 취합\0315\SE통합검증_Native App 강화_Test Data Set_v1.0.xlsx'
+fpath = r'C:\Users\ony19070912\Desktop\Native app TC,TD 취합\0315\test.xlsx'
 wb = openpyxl.load_workbook(fpath)
 
 #시트 지정
